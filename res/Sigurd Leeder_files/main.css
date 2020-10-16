@@ -1,0 +1,88 @@
+/**
+Leeder-Color:
+Dark:       #394b39
+Medium:     #648364
+Medlight:   #8fbc8f
+Light:      #b0d0b0
+
+
+*/
+
+
+body {
+    background-image: url("res/bkgrd-3.jpg");
+    backdrop-filter: grayscale(100%);
+}
+
+h1 {
+    color: #8FBC8F;
+}
+
+a {
+    cursor: pointer !important;
+}
+
+p a {
+    margin: 0 !important;
+    color: #b0d0b0 !important;
+}
+.side-nav li:hover {
+    background-color: #648364 !important;
+}
+.side-nav a:hover {
+    font-weight: normal;
+    color: white;
+}
+.nav-extended {
+    background-color: #394b39;
+    height: 8em !important;
+}
+.brand-logo,
+.brand-logo img,
+#my-nav-ul,
+#my-nav-ul li,
+#my-nav-ul li a,
+.button-collapse,
+.button-collapse i,
+.nav-wrapper {
+    height: 100% !important;
+}
+.card-action {
+    border-top: 2px solid #b0d0b0 !important;
+}
+
+.leeder-bkgrd {
+    background-color: #648364 !important;
+}
+
+.card p {
+    text-align: justify;
+}
+
+.shop {
+    padding: 1em;
+    margin-bottom: 2em !important;
+    background-color: #b0d0b0;
+}
+.btn {
+    text-align: center;
+    background-color: #394b39 !important;
+}
+
+.my-titles {
+    text-align: center;
+    margin: 2em 0;
+    padding: 1em;
+    background-color: white;
+}
+.my-titles h1,
+.my-titles h2 {
+    font-size: 5vw;
+}
+.page-footer {
+    background-color: #8FBC8F !important;
+}
+.footer-copyright {
+    background-color: #648364 !important;
+}
+

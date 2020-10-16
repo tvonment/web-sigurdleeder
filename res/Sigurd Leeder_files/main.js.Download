@@ -1,0 +1,17 @@
+$( document ).ready(function (){
+    $(".button-collapse").sideNav();
+    console.log("ready!");
+
+    var body = document.body,
+    doc = document.documentElement;
+    $(window).scroll(function () {
+        body.style.backgroundPosition = "0px " + ((Math.max(doc.scrollTop, body.scrollTop))/4 ) + "px";
+    });
+});
+
+function move(value) {
+    console.log("Move to: " + value);
+    var target = $("#" + value);
+    $('html,body').animate({scrollTop: target.offset().top - 125}, 2000);
+    $('.button-collapse').sideNav('hide');
+}
